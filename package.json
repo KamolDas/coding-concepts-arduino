@@ -1,0 +1,11 @@
+{
+  "name": "coding-concepts-arduino",
+  "version": "1.0.0",
+  "description": "Coding Concepts — Arduino Edition. A nine-module interactive embedded/Arduino learning book, content-driven from data/*.json.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "deploy": "wrangler pages deploy . --project-name=coding-concepts-arduino"
+  },
+  "devDependencies": { "wrangler": "^3" }
+}
